@@ -11,13 +11,13 @@ const Banner = () => {
   return (
     <>
       <section id="home" className="container ">
-        <div className="both flex justify-between items-center mt-10  flex-wrap py-15">
-          <div className="flex flex-col  bg-black  px-6 ">
+        <div className="both flex justify-between items-center   flex-wrap py-15">
+          <div className="flex flex-col  bg-black  px-3 ">
             <p className="text-lg text-gray-400 mb-2">Hi, I am</p>
-            <h1 className="text-5xl  font-bold text-amber-500  mb-3">
+            <h1 className="lg:text-5xl text-3xl  font-bold text-amber-500  mb-3">
               Mahir The Coder
             </h1>
-            <p className="text-gray-400 max-w-xl">
+            <p className="text-gray-400 max-w-xl text-sm lg:block ">
               I’m a passionate web developer who loves creating modern,
               responsive, and user-friendly web experiences. Let’s build
               something amazing!
@@ -53,13 +53,13 @@ const Banner = () => {
             <div className="button-part flex gap-7">
               <a
                 href="#Contact"
-                className="hover:bg-amber-600  text-white border-2 border-gray-500  px-5 py-2 rounded-lg font-semibold  transition"
+                className="hover:bg-amber-600  text-white border-2 border-gray-500  px-5 py-3 rounded-lg font-semibold  transition text-xs lg:text-lg"
               >
                 Hire Me
               </a>
               <a
                 href="#"
-                className="hover:bg-amber-600 text-white border-2 border-gray-500  px-5 py-2 rounded-lg font-semibold  transition"
+                className="hover:bg-amber-600 text-white border-2 border-gray-500  px-5 py-3 rounded-lg font-semibold text-xs lg:text-lg  transition"
               >
                 Download CV
               </a>

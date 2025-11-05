@@ -34,7 +34,7 @@ const ResNav = () => {
 
   return (
     <>
-      <div className="lg:hidden   absolute left-0 top-0 z-50 w-full bg-black-bg">
+      <div className="lg:hidden sticky  absolute left-0 top-0 z-50 w-full bg-black-bg">
         <div>
           <div className="main flex items-center justify-between px-5 py-7 bg-gray-950 rounded-3xl ">
 
