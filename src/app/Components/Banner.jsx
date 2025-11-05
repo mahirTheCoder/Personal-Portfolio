@@ -15,7 +15,7 @@ const Banner = () => {
           <div className="flex flex-col  bg-black  px-3 ">
             <p className="text-lg text-gray-400 mb-2">Hi, I am</p>
             <h1 className="lg:text-5xl text-3xl  font-bold text-amber-500  mb-3">
-              Mahir The Coder
+              Mahir Chowdhury
             </h1>
             <p className="text-gray-400 max-w-xl text-sm lg:block ">
               I’m a passionate web developer who loves creating modern,
