@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <section id='footer' className=" bg-gray-950 border border-gray-800 
-                           hover:border-amber-500 hover:shadow-amber-500/20   py-10 md:py-16 mt-20 md:mt-25"> {/* Adjusted background and padding */}
+                          hover:shadow-amber-500/20   py-10 md:py-16 mt-20 md:mt-25"> {/* Adjusted background and padding */}
         <footer className="container mx-auto px-4 text-center"> {/* Centered container */}
           {/* Logo Section */}
           <div className="mb-8 md:mb-12">
