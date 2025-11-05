@@ -32,10 +32,7 @@ const projects = [
 const Portfolio = () => {
   return (
     // Section background is bg-gray-950
-    <section
-      id="Portfolio"
-      className=" mt-30 text-white mb-30 font-sans"
-    >
+    <section id="Portfolio" className=" mt-30 text-white mb-30 font-sans">
       <div className="container mx-auto px-4 max-w-7xl">
         {/* Section Heading */}
         <h2 className="text-4xl font-bold text-center mb-12 text-amber-500 ">
@@ -55,8 +52,8 @@ const Portfolio = () => {
             >
               <div
                 className="p-6 rounded-xl shadow-2xl transition-all duration-300 transform 
-                           bg-gray-950 border border-gray-800 
-                           hover:border-amber-500 hover:shadow-amber-500/20"
+              bg-gray-950 border border-gray-800 
+            hover:border-amber-500  hover:shadow-amber-500/20"
               >
                 {/* Project Title */}
                 <h3 className="text-xl font-semibold mb-3 text-gray-100">
@@ -83,8 +80,6 @@ const Portfolio = () => {
             </a>
           ))}
         </div>
-
-     
       </div>
     </section>
   );
