@@ -52,11 +52,11 @@ const Footer = () => {
           {/* Contact Information */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mb-8 md:mb-12 text-gray-400 text-lg md:text-xl">
             <div className="flex items-center gap-2">
-              <FaEnvelope className="text-xl" />
+              <FaEnvelope className="lg:text-xl text-sm" />
               <span>mahirchowdhury518@gmail.com</span>
             </div>
             <div className="flex items-center gap-2">
-              <FaPhoneAlt className="text-xl" />
+              <FaPhoneAlt className="lg:text-xl text-sm" />
               <span>+880 1894 277 518</span>
             </div>
           </div>
