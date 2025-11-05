@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className="container mx-auto px-4 text-center"> {/* Centered container */}
           {/* Logo Section */}
           <div className="mb-8 md:mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold text-red-500 logo-text">mahirTheCoder</h3> {/* Red text for LOGO */}
+            <h3 className="text-3xl md:text-4xl font-bold text-amber-700 logo-text">mahirTheCoder</h3> {/* Red text for LOGO */}
           </div>
 
           {/* Navigation Links */}
