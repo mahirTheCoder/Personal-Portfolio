@@ -7,7 +7,7 @@ import { FaInstagram, FaDribbble, FaBehance, FaEnvelope, FaPhoneAlt } from 'reac
 const Footer = () => {
   return (
     <>
-      <section id='footer' className="bg-[#121212] py-10 md:py-16 mt-20 md:mt-25"> {/* Adjusted background and padding */}
+      <section id='footer' className=" bg-gray-950  py-10 md:py-16 mt-20 md:mt-25"> {/* Adjusted background and padding */}
         <footer className="container mx-auto px-4 text-center"> {/* Centered container */}
           {/* Logo Section */}
           <div className="mb-8 md:mb-12">
