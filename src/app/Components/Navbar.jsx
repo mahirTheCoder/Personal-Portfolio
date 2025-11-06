@@ -16,19 +16,19 @@ const Navbar = () => {
 
             {/* Menu */}
             <div className="hidden md:flex gap-6">
-              <a href="#home" className="hover:text-amber-500 transition">
+              <a href="#" className="hover:text-amber-500 transition">
                 Home
               </a>
-              <a href="#services" className="hover:text-amber-500 transition">
+              <a href="#Service" className="hover:text-amber-500 transition">
                 Service
               </a>
-              <a href="#about" className="hover:text-amber-500 transition">
+              <a href="#home" className="hover:text-amber-500 transition">
                 About
               </a>
-              <a href="#portfolio" className="hover:text-amber-500 transition">
+              <a href="#Portfolio" className="hover:text-amber-500 transition">
                 Portfolio
               </a>
-              <a href="#contact" className="hover:text-amber-500 transition">
+              <a href="#Contact" className="hover:text-amber-500 transition">
                 Contact Me
               </a>
             </div>
